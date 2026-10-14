@@ -63,7 +63,7 @@ wss.on('connection', (ws) => {
           username: data.username,
           text: data.text,
           timestamp: data.timestamp,
-          createdAt: data.createdAt,
+          createdAt: data.createdAt,      // <-- tambahkan
           replyTo: data.replyTo
         }, ws);
         return;
